@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.img-1 {
+  float: left;
+}
+
+@media only screen and (max-width: 600px) {
+  .img-2-blackpink{
+    width: 300px;
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+    .img-2-bts{
+      width: 300px;
+      height: 200px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .img-2-selena{
+      width: 300px;
+      height: 200px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .img-2-twice{
+      width: 300px;
+      height: 200px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .img-2-taylorswift{
+      width: 300px;
+      height: 200px;
+    }
+}
+
+ @media only screen and (max-width: 600px) {
+    .img-2-others{
+      width: 300px;
+      height: 200px;
+    }
+  } 
+.header-2 {
+  background-color: pink;
+  height: 150px;
+}
+
+
+.nav_bar {
+  background-color: black;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.nav-link {
+  color: rgb(212, 208, 208);
+  font-size: 30px;
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.nav-link-active{
+    color: black;
+    background-color: rgb(160, 156, 156);
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+  background-color: white;
+  color: black;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.container-1 {
+  padding-top: 3%;
+  color: black;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  text-shadow: 4px 4px gray;
+  font-size: 55px;
+}
+
+.img-2-blackpink {
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.img-2-bts {
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.img-2-selena {
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.img-2-taylorswift {
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.img-2-twice {
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.img-2-others {
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.heading {
+  text-align: center;
+  padding-top: 3%;
+}
+
+.col-6 {
+  font-family: "Patrick Hand", cursive;
+  font-size: 35px;
+  text-justify: auto;
+}
+
+.blackpink-list-songs {
+  text-transform: capitalize;
+}
+
+.bts-list-songs {
+    text-transform: capitalize;
+}
+
+.selenagomez-list-songs {
+    text-transform: capitalize;
+}
+
+.taylorswift-list-songs {
+    text-transform: capitalize;
+  }
+
+.edsheeran-list-songs {
+    text-transform: capitalize;
+  }  
+
+.others-list-songs {
+    text-transform: capitalize;
+  }  
+ul {
+  list-style-type: none;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-size: 30px;
+  color: white;
+  text-shadow: 1px 1px black ;
+}
+
+h1 {
+  font-weight: bolder;
+  color: white;
+  text-shadow: 1px 1px black ;
+  font-size: 45px;
+
+}  
